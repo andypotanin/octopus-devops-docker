@@ -1,4 +1,7 @@
 octopus-devops-docker
 
-- Azure PowerShell
+### Installs:
+
+- Azure ARM PowerShell
+- powershell-yaml
 - Azure CLI
