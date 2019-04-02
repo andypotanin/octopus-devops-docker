@@ -5,3 +5,4 @@ octopus-devops-docker
 - Azure ARM PowerShell
 - powershell-yaml
 - Azure CLI
+- Octopus CLI
