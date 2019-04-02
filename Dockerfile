@@ -13,7 +13,7 @@ RUN apt-get update; apt-get install azure-cli wget libunwind8 curl nano -y
 
 RUN mkdir /root/octopus
 RUN cd /root/octopus; wget https://download.octopusdeploy.com/octopus-tools/4.37.0/OctopusTools.4.37.0.ubuntu.16.04-x64.tar.gz; tar -xzf OctopusTools.4.37.0.ubuntu.16.04-x64.tar.gz
-RUN mv /usr/bin/octo
+RUN ln -sf /root/octopus/Octo /usr/bin/octo
 
 VOLUME /octopus-devops-scripts
 WORKDIR /octopus-devops-scripts
